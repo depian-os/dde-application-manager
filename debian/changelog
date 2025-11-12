@@ -1,0 +1,363 @@
+dde-application-manager (1.2.37) unstable; urgency=medium
+
+  * refactor: unify XDG directory path handling with merged directory
+    functions
+  * chore: update license from LGPL to GPL
+
+ -- wujiangyu <wujiangyu@uniontech.com>  Thu, 23 Oct 2025 16:00:06 +0800
+
+dde-application-manager (1.2.36) unstable; urgency=medium
+
+  * feat: add system autostart directory support
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Fri, 10 Oct 2025 17:45:45 +0800
+
+dde-application-manager (1.2.35) unstable; urgency=medium
+
+  * fix(autostart): Simplify autostart validation and improve
+    reliability
+
+ -- wujiangyu <wujiangyu@uniontech.com>  Thu, 04 Sep 2025 17:34:29 +0800
+
+dde-application-manager (1.2.34) unstable; urgency=medium
+
+  * fix: improve handling of existing desktop files
+  * fix: add PartOf directive to systemd service override
+
+ -- Wang Zichong <wangzichong@deepin.org>  Thu, 31 Jul 2025 20:26:08 +0800
+
+dde-application-manager (1.2.33) unstable; urgency=medium
+
+  * feat: update dde-am tool
+
+ -- YeShanShan <yeshanshan@uniontech.com>  Thu, 10 Jul 2025 21:06:51 +0800
+
+dde-application-manager (1.2.32) unstable; urgency=medium
+
+  * fix: add hardening flags to Debian build rules
+  * fix: Fix timing issue in ApplicationManager1Service::Identify using
+    pidfd_send_signal validation
+
+ -- WuJiangYu <wujiangyu@uniontech.com>  Thu, 03 Jul 2025 19:54:43 +0800
+
+dde-application-manager (1.2.31) unstable; urgency=medium
+
+  * fix: spaces in desktop id can cause app failed to launch
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 19 Jun 2025 10:12:23 +0800
+
+dde-application-manager (1.2.30) unstable; urgency=medium
+
+  * fix: Fix unit name error when launch with parameters
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 12 Jun 2025 20:56:12 +0800
+
+dde-application-manager (1.2.29) unstable; urgency=medium
+
+  * fix: when reboot,none-autostart app is incorrectly set to a auto-start icon 
+  * feat: Add GenericName handling to DesktopFileGenerator 
+  * fix: return value for empty GenericName map in desktop file generator 
+
+ -- Wu Jiangyu <wujiangyu@uniontech.com>  Thu, 05 Jun 2025 16:27:04 +0800
+
+dde-application-manager (1.2.28) unstable; urgency=medium
+
+  * revert the change that validate and remove broken desktop file symlinks
+
+ -- Wang Zichong <wangzichong@deepin.org>  Thu, 17 Apr 2025 17:27:00 +0800
+
+dde-application-manager (1.2.27) unstable; urgency=medium
+
+  * fix: convert file:// to local path
+
+ -- heyuming <heyuming@deepin.org>  Thu, 10 Apr 2025 16:52:52 +0800
+
+dde-application-manager (1.2.26) unstable; urgency=medium
+
+  * fix: abnormal splitting of parameters enclosed in quotation marks in Exec
+
+ -- zhangkun <zhangkun2@uniontech.com>  Fri, 14 Mar 2025 22:25:23 +0800
+
+dde-application-manager (1.2.25) unstable; urgency=medium
+
+  * release 1.2.25
+
+ -- zhangkun <zhangkun2@uniontech.com>  Mon, 17 Feb 2025 15:36:43 +0800
+
+dde-application-manager (1.2.24) unstable; urgency=medium
+
+  * release 1.2.24
+
+ -- zhangkun <zhangkun2@uniontech.com>  Thu, 23 Jan 2025 17:33:30 +0800
+
+dde-application-manager (1.2.23) unstable; urgency=medium
+
+  * release 1.2.23
+
+ -- ComixHe <heyuming@deepin.org>  Tue, 14 Jan 2025 10:14:54 +0800
+
+dde-application-manager (1.2.22) unstable; urgency=medium
+
+  * release 1.2.22
+
+ -- ChengqiE <echengqi@uniontech.com>  Fri, 10 Jan 2025 14:50:33 +080
+
+dde-application-manager (1.2.21) unstable; urgency=medium
+
+  * release 1.2.21
+
+ -- ChengqiE <echengqi@deepin.org>  Tue, 24 Dec 2024 15:28:38 +080
+
+dde-application-manager (1.2.20) unstable; urgency=medium
+
+  * release 1.2.20
+
+ -- ChengqiE <echengqi@deepin.org>  Fri, 13 Dec 2024 15:28:38 +080
+
+dde-application-manager (1.2.19) unstable; urgency=medium
+
+  * release 1.2.19
+
+ -- ChengqiE <echengqi@deepin.org>  Fri, 6 Dec 2024 14:55:38 +0800
+
+dde-application-manager (1.2.18) unstable; urgency=medium
+
+  * release 1.2.18
+
+ -- ChengqiE <echengqi@deepin.org>  Tue, 26 Nov 2024 09:04:38 +0800
+
+dde-application-manager (1.2.17) unstable; urgency=medium
+
+  * release 1.2.17
+
+ -- ECQZXC <echengqi@deepin.org>  Thu, 31 Oct 2024 15:04:38 +0800
+
+dde-application-manager (1.2.16) unstable; urgency=medium
+
+  * release 1.2.16
+
+ -- tsic404 <liuheng@deepin.org>  Thu, 10 Oct 2024 15:34:38 +0800
+
+dde-application-manager (1.2.15) unstable; urgency=medium
+
+  * release 1.2.15
+
+ -- Mike Chen <chenke@deepin.org>  Wed, 10 Jul 2024 13:09:51 +0800
+
+dde-application-manager (1.2.14) unstable; urgency=medium
+
+  * release 1.2.14
+
+ -- Mike Chen <chenke@deepin.org>  Wed, 05 Jun 2024 16:35:00 +0800
+
+dde-application-manager (1.2.13) unstable; urgency=medium
+
+  * chore: set apps quit timeout to 3s (https://github.com/linuxdeepin/developer-center/issues/8554)
+
+ -- zsien <quezhiyong@deepin.org>  Wed, 15 May 2024 09:54:55 +0800
+
+dde-application-manager (1.2.12) unstable; urgency=medium
+
+  * release 1.2.12
+
+ -- Mike Chen <chenke@deepin.org>  Tue, 14 May 2024 21:00:43 +0800
+
+dde-application-manager (1.2.11) unstable; urgency=medium
+
+  * release 1.2.11
+
+ -- Mike Chen <chenke@deepin.org>  Sat, 11 May 2024 15:28:44 +0800
+
+dde-application-manager (1.2.10) unstable; urgency=medium
+
+  * fix: crashed when launching a application contains "%U"
+  * fix: revert "crashed when removing a invalid index"
+
+ -- Wang Fei <wangfei@deepin.org>  Fri, 10 May 2024 15:18:39 +0800
+
+dde-application-manager (1.2.9) unstable; urgency=medium
+
+  * fix: dman display nothing
+
+ -- Wang Fei <wangfei@deepin.org>  Thu, 09 May 2024 16:30:30 +0800
+
+dde-application-manager (1.2.8) unstable; urgency=medium
+
+  * release 1.2.8
+
+ -- Mike Chen <chenke@deepin.org>  Tue, 07 May 2024 09:38:22 +0800
+
+dde-application-manager (1.2.7) unstable; urgency=medium
+
+  * feat: Add a hook and wrap all applications in the hook script to start
+
+ -- Zhang kun <zhangkun2@uniontech.com>  Mon, 29 Apr 2024 15:59:14 +0800
+
+dde-application-manager (1.2.6) unstable; urgency=medium
+
+  * feat: Can emit correct remove signal when uninstalling applications patched by deepin-deb-fix
+
+ -- Zhang kun <zhangkun2@uniontech.com>  Fri, 26 Apr 2024 16:35:29 +0800
+
+dde-application-manager (1.2.5) unstable; urgency=medium
+
+  * fix: Return correct mimetype and default app for directories
+  * fix: dde-open file failed
+
+ -- dengbo <dengbo@deepin.org>  Tue, 23 Apr 2024 13:54:57 +0800
+
+dde-application-manager (1.2.4) unstable; urgency=medium
+
+  * fix: missing package parsed when ReloadApplicaitons(Issue: https://github.com/linuxdeepin/developer-center/issues/7830)
+  * fix: self start setting failed(Issue: https://github.com/linuxdeepin/developer-center/issues/7637)
+
+ -- Zhang kun <zhangkun2@uniontech.com>  Wed, 17 Apr 2024 11:41:02 +0800
+
+dde-application-manager (1.2.3) unstable; urgency=medium
+
+  * fix #7733
+
+ -- Mike Chen <chenke@deepin.org>  Wed, 03 Apr 2024 14:49:14 +0800
+
+dde-application-manager (1.2.2) unstable; urgency=medium
+
+  * feat: add dde-am tool to launch application
+
+ -- YeShanShan <yeshanshan@deepin.org>  Fri, 29 Mar 2024 18:05:10 +0800
+
+dde-application-manager (1.2.1) unstable; urgency=medium
+
+  * fix: gtk app scaled size too big(#7528)
+  * chore: add doc describing the behavior of processing exec key
+  * chore: update README.md
+
+ -- Mike Chen <chenke@deepin.org>  Mon, 18 Mar 2024 17:18:13 +0800
+
+dde-application-manager (1.2.0) unstable; urgency=medium
+
+  * fix: incorrect scale factor has been set in qt application which load dxcb platform plugin
+  * fix: correct launchoptions
+  * feat: add GIO_LAUNCHED_DESKTOP_FILE to runtime envs
+  * fix: the signal is triggered repeatedly
+  * refact: remove processguesser1service
+  * feat: add property `LaunchedTimes`
+  * feat: set systemd.unit's property `CollectMode` to failed-or-inactive
+  * chore: correct typo
+
+ -- He YuMing <heyuming@deepin.org>  Thu, 07 Mar 2024 14:36:10 +0800
+
+dde-application-manager (1.1.9) unstable; urgency=medium
+
+  * feat: add filesystem watcher for reloading applications
+  * feat: add app-identifier for convenient
+  * refact: suppress warnings and standardize project
+  * fix: support ExecSearchPath to prevent systemd from not finding binaries
+  * feat: set more scale envs to application
+
+ -- He YuMing <heyuming@deepin.org>  Thu, 22 Feb 2024 15:57:18 +0800
+
+dde-application-manager (1.1.8) unstable; urgency=medium
+
+  * refact: unit test for Job
+  * fix: correct autostart source
+  * feat: Compatible with URL arguments
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 24 Jan 2024 09:57:50 +0800
+
+dde-application-manager (1.1.7) unstable; urgency=medium
+
+  * fix: call scanMimeInfo and scanAutostart when reloadApplications
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 10 Jan 2024 10:52:16 +0800
+
+dde-application-manager (1.1.6) unstable; urgency=medium
+
+  * refact: scanAutostart and get/set autostart
+  * fix: call scanMimeInfo and scanAutostart when reloadApplications
+  * fix: append env 'scaleFactor' to deepin-wine application
+
+ -- He YuMing <heyuming@deepin.org>  Fri, 05 Jan 2024 16:21:57 +0800
+
+dde-application-manager (1.1.5) unstable; urgency=medium
+
+  * fix: update location after insertion
+  * refact: assuming all applications have been
+    launched during AM create storage at first time
+
+ -- He YuMing <heyuming@deepin.org>  Tue, 26 Dec 2023 09:47:20 +0800
+
+dde-application-manager (1.1.4) unstable; urgency=medium
+
+  * release 1.1.4 for Qt 6.6
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 22 Nov 2023 09:32:34 +0800
+
+dde-application-manager (1.1.3) unstable; urgency=medium
+
+  * fix: update infos after app was launched
+  * refact: Autostart
+  * refact: add some checks
+  * fix: prevent invalid unitName cause AM crashed.
+  * fix: incorrect behavior of processguesser1service
+
+ -- He YuMing <heyuming@deepin.org>  Thu, 16 Nov 2023 15:39:26 +0800
+
+dde-application-manager (1.1.2) unstable; urgency=medium
+
+  * release 1.1.2 for misc fixup.
+
+ -- He YuMing <heyuming@deepin.org>  Tue, 07 Nov 2023 13:08:59 +0800
+
+dde-application-manager (1.1.1) unstable; urgency=medium
+
+  * release 1.1.1 for api package
+
+ -- He YuMing <heyuming@deepin.org>  Thu, 02 Nov 2023 14:46:23 +0800
+
+dde-application-manager (1.1.0) unstable; urgency=medium
+
+  * release 1.1.0, replace old Application Manager.
+
+ -- He YuMing <heyuming@deepin.org>  Thu, 19 Oct 2023 17:09:46 +0800
+
+dde-application-manager (0.3.0) unstable; urgency=medium
+
+  * release 0.3.0, correct package version and data format
+
+ -- He YuMing <heyuming@deepin.org>  Thu, 28 Sep 2023 09:58:17 +0800
+
+dde-application-manager (0.2.4) unstable; urgency=medium
+
+  * release 0.2.4, change package name
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 27 Sep 2023 17:22:24 +0800
+
+dde-application-manager-reborn (0.2.3) unstable; urgency=medium
+
+  * release 0.2.3
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 27 Sep 2023 11:14:32 +0800
+
+dde-application-manager-reborn (0.2.2) unstable; urgency=medium
+
+  * Fix dpkg hook.
+
+ -- Chen Linxuan <chenlinxuan@uniontech.com>  Wed, 06 Sep 2023 20:22:44 +0800
+
+dde-application-manager-reborn (0.2.1) unstable; urgency=medium
+
+  * Compatible with Qt 6.2
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 6 Sep 2023 16:52:22 +0800
+
+dde-application-manager-reborn (0.2.0) unstable; urgency=medium
+
+  * Release for integration
+
+ -- He YuMing <heyuming@deepin.org>  Wed, 6 Sep 2023 13:59:15 +0800
+
+dde-application-manager-reborn (0.1.0) unstable; urgency=medium
+
+  * Initial release.
+
+ -- He YuMing <heyuming@deepin.org>  Tue, 29 Aug 2023 17:39:07 +0800
